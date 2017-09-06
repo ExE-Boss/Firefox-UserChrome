@@ -1,0 +1,13 @@
+# Ignore Everything
+/*
+
+# Sources
+!/userChrome
+
+# Git
+!.gitattributes
+!.gitignore
+!README*
+!LICENSE*
+
+# Unwanted crap
