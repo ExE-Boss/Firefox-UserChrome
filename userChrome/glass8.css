@@ -56,6 +56,15 @@
 			margin-left:	-2px	!important;
 			margin-right:	 2px	!important;
 		}
+
+		#main-window[extradragspace="true"][sizemode="normal"] #titlebar-min .toolbarbutton-icon {
+			margin-top:	-10px	!important;
+		}
+
+		#main-window[extradragspace="true"][sizemode="normal"] #titlebar-max .toolbarbutton-icon,
+		#main-window[extradragspace="true"][sizemode="normal"] #titlebar-close .toolbarbutton-icon {
+			margin-top:	-12px	!important;
+		}
 	}
 	/* ----  END AERO GLASS BLOCK  ---- */
 }
