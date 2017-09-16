@@ -65,6 +65,16 @@
 		#main-window[extradragspace="true"][sizemode="normal"] #titlebar-close .toolbarbutton-icon {
 			margin-top:	-12px	!important;
 		}
+
+		#titlebar-min .toolbarbutton-icon,
+		#titlebar-max .toolbarbutton-icon,
+		#titlebar-close .toolbarbutton-icon {
+			opacity:	0;
+		}
+
+		#titlebar-close:hover .toolbarbutton-icon {
+			opacity:	1;
+		}
 	}
 	/* ----  END AERO GLASS BLOCK  ---- */
 }
